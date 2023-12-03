@@ -36,18 +36,11 @@ body {
 
 .form .input {
   text-align: left;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .form .input .inputbox {
   margin-top: 20px;
-}
-
-.form .input .inputbox label {
-  display: block;
-  color: #50c878;
-  margin-bottom: 5px;
-  font-size: 18px;
 }
 
 .form .input .inputbox input {
@@ -91,16 +84,10 @@ body {
   transform: translateY(35px); /* Adjust the pixels for vertical positioning */
   color: var(--text-color);
   font-size: 18px;
-}
-
-.input-icon {
   -webkit-user-select: none; /* Prevents the icon from being selected */
   user-select: none;
   pointer-events: none; /* Disables pointer events on the icon */
-  /* Other styles... */
 }
-
-
 
 .forget {
   margin-top: 30px;
@@ -116,7 +103,7 @@ body {
   display: block;
 }
 
-.text1 {
+.heading {
   color: var(--heading-color);
   font-weight: 500px;
   letter-spacing: 8px;
@@ -130,26 +117,10 @@ body {
   animation-duration: 3s;
 }
 
-.text2 {
-  font-size: 50px;
-  color: var(--symbol-color);
-  top: 30%;
-  left: 30%;
-  margin-left: -20%;
-  margin-top: -15%;
-}
-
-.text3 {
+.logo {
   font-size: 68px;
   color: var(--symbol-color);
   margin-top: -16%;
-}
-
-.text4 {
-  font-size: 50px;
-  color: green;
-  margin-right: -20%;
-  margin-top: -67px;
 }
 
 @keyframes text {
