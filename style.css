@@ -125,7 +125,7 @@ body {
 
 @keyframes text {
   0% {
-    color: var(--link-color);
+    color: var(--background-color);
     margin-bottom: -20px;
   }
   30% {
@@ -141,7 +141,7 @@ body {
 
 @-webkit-keyframes text {
   0% {
-    color: #131419;
+    color: var(--background-color);
     margin-bottom: -20px;
   }
   30% {
