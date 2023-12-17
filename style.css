@@ -75,7 +75,7 @@ body {
 
 .form .input .inputbox input::placeholder {
   position: absolute;
-  left: 70px; /* Adjust horizontally as needed */
+  left: 60px; /* Adjust horizontally as needed */
   color: var(--text-color);
   font-size: 18px;
 }
@@ -135,7 +135,7 @@ body {
 }
 
 .form > .logo {
-  font-size: 3.2vw;
+  font-size: 40px;
   color: var(--symbol-color);
   margin: -28px 10px auto;
 }
