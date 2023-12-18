@@ -1,4 +1,18 @@
 // For input-icon
+const inputFields = document.querySelectorAll('.input-field');
+const icons = document.querySelectorAll('.input-icon');
+
+inputFields.forEach((inputField, index) => {
+  const icon = icons[index];
+
+  inputField.addEventListener('input', function() {
+    if (inputField.value.trim() !== '') {
+      icon.style.color = 'var(--link-color)';
+    } else {
+      icon.style.color = 'var(--text-color)';
+    }
+  });
+});
 
 
 //For show password
@@ -13,6 +27,4 @@ password.setAttribute('type', type);
 this.classList.toggle('bi-eye');
 });
 
-
-// For focus
 
